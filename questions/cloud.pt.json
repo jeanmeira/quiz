@@ -1,0 +1,83 @@
+[
+    {
+      "q": "O que significa Cloud Native?",
+      "options": [
+        { "text": "Aplicações feitas para rodar em ambientes de nuvem", "isCorrect": true, "feedback": "Isso aí! Cloud nativo é vida em nuvem desde o berço." },
+        { "text": "Aplicações que precisam de conexão Wi-Fi", "isCorrect": false, "feedback": "Só se for Wi-Fi com Kubernetes embutido..." },
+        { "text": "Softwares que vivem no céu", "isCorrect": false, "feedback": "Muito poético, mas não é isso 😅" }
+      ]
+    },
+    {
+      "q": "Kubernetes é usado para...",
+      "options": [
+        { "text": "Orquestrar containers", "isCorrect": true, "feedback": "Certo! K8s é o maestro dos containers." },
+        { "text": "Fazer deploy do Excel", "isCorrect": false, "feedback": "Deploy de planilha é em outra camada 😂" },
+        { "text": "Criar servidores físicos", "isCorrect": false, "feedback": "Infra as code, não as ferro!" }
+      ]
+    },
+    {
+      "q": "O que é um container?",
+      "options": [
+        { "text": "Um ambiente isolado para aplicações", "isCorrect": true, "feedback": "Exatamente! Tipo um potinho Docker com app dentro." },
+        { "text": "Uma caixa de plástico com código", "isCorrect": false, "feedback": "Quase... mas não cabe no armário da cozinha." },
+        { "text": "Um app que só funciona com Wi-Fi", "isCorrect": false, "feedback": "Wi-Fi não é dependência obrigatória aqui." }
+      ]
+    },
+    {
+      "q": "O que é DevOps?",
+      "options": [
+        { "text": "Cultura que une desenvolvimento e operações", "isCorrect": true, "feedback": "Mandou bem! É união e CI/CD 💪" },
+        { "text": "Um novo framework de JavaScript", "isCorrect": false, "feedback": "Não é mais um.js, ufa!" },
+        { "text": "Um time que resolve tudo no final do sprint", "isCorrect": false, "feedback": "Infelizmente isso ainda acontece... mas não é o ideal." }
+      ]
+    },
+    {
+      "q": "Helm é usado para...",
+      "options": [
+        { "text": "Gerenciar deploys no Kubernetes", "isCorrect": true, "feedback": "Isso! O apt-get dos charts no K8s!" },
+        { "text": "Proteger contra piratas", "isCorrect": false, "feedback": "Só se forem piratas de YAML." },
+        { "text": "Criar APIs REST", "isCorrect": false, "feedback": "Não, mas elas podem estar no chart!" }
+      ]
+    },
+    {
+      "q": "Terraform é...",
+      "options": [
+        { "text": "Uma ferramenta de infraestrutura como código", "isCorrect": true, "feedback": "Sim! IaC na veia com HCL na alma." },
+        { "text": "Um jogo de simulação de planeta", "isCorrect": false, "feedback": "Talvez na Steam, mas não aqui." },
+        { "text": "Uma versão open source do The Sims", "isCorrect": false, "feedback": "Terraformar não é construir casas 😂" }
+      ]
+    },
+    {
+      "q": "O que é observabilidade?",
+      "options": [
+        { "text": "Capacidade de entender o que está acontecendo no sistema", "isCorrect": true, "feedback": "Perfeito! Logs, métricas e traces unidos jamais serão vencidos." },
+        { "text": "Espiar o que o dev do lado tá fazendo", "isCorrect": false, "feedback": "Isso é só curiosidade mesmo." },
+        { "text": "Assistir deploys em tempo real como novela", "isCorrect": false, "feedback": "Seria divertido, mas não é só isso 😄" }
+      ]
+    },
+    {
+      "q": "Qual dessas ferramentas NÃO é usada em Cloud Native?",
+      "options": [
+        { "text": "MS Paint", "isCorrect": true, "feedback": "Correto! Só se for pra desenhar diagrama improvisado." },
+        { "text": "Prometheus", "isCorrect": false, "feedback": "Errado, Prometheus é o rei das métricas!" },
+        { "text": "Grafana", "isCorrect": false, "feedback": "Grafana sem dúvida faz parte do show." }
+      ]
+    },
+    {
+      "q": "O que é um service mesh?",
+      "options": [
+        { "text": "Camada de rede entre serviços para controle e observação", "isCorrect": true, "feedback": "Isso! Istio manda lembranças 🕸️" },
+        { "text": "Um penteado moderno pra serviços", "isCorrect": false, "feedback": "Só se for microserviço com franja!" },
+        { "text": "Uma nova linguagem de backend", "isCorrect": false, "feedback": "Ainda não inventaram essa." }
+      ]
+    },
+    {
+      "q": "Qual dessas práticas é essencial em ambientes Cloud Native?",
+      "options": [
+        { "text": "CI/CD", "isCorrect": true, "feedback": "Exatamente! Deploy automático é o novo normal." },
+        { "text": "Mandar e-mail pra subir pra produção", "isCorrect": false, "feedback": "Isso é pré-histórico 😅" },
+        { "text": "Levar o servidor no pendrive", "isCorrect": false, "feedback": "Só se for o pendrive do caos." }
+      ]
+    }
+  ]
+  

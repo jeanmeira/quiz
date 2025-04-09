@@ -1,0 +1,131 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: #f3f3f3;
+    color: #333;
+  }
+  
+  .quiz-container {
+    max-width: 600px;
+    margin: auto;
+    background: #fff;
+    padding: 30px 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #2c3e50;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+    margin-top: 15px;
+  }
+  
+  select,
+  button {
+    padding: 12px;
+    margin: 8px 0;
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  .question {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .options button {
+    background-color: #ffffff;
+    color: #2c3e50;
+    border: 2px solid #3498db;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 14px 18px;
+    text-align: left;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
+  
+  .options button:hover,
+  .options button:focus {
+    background-color: #ecf6fc;
+    transform: translateY(-2px);
+    outline: none;
+  }
+  
+  .feedback {
+    margin-top: 15px;
+    font-style: italic;
+    color: #7f8c8d;
+    transition: opacity 0.5s ease;
+    min-height: 24px;
+  }
+  
+  .result {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .badge {
+    margin-top: 20px;
+    padding: 12px 16px;
+    background: linear-gradient(135deg, #f9d423, #ff4e50);
+    border-radius: 12px;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+  }
+  
+  a {
+    color: #27ae60;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 600px) {
+    .quiz-container {
+      padding: 20px 15px;
+    }
+  
+    select,
+    button {
+      font-size: 15px;
+    }
+  
+    .question {
+      font-size: 16px;
+    }
+  
+    .options button {
+      font-size: 16px;
+      padding: 12px 16px;
+    }
+  }
+  

@@ -1,0 +1,83 @@
+[
+    {
+      "q": "O que é engenharia de plataforma?",
+      "options": [
+        { "text": "Construir plataformas de petróleo", "isCorrect": false, "feedback": "Quase! Só se for na AWS do pré-sal." },
+        { "text": "Criar fundações para desenvolvimento eficiente de software", "isCorrect": true, "feedback": "Isso aí! Plataforma é base pra dev brilhar." },
+        { "text": "Gerenciar redes sociais", "isCorrect": false, "feedback": "Engenharia de TikTok não tá nesse quiz ainda 😅" }
+      ]
+    },
+    {
+      "q": "O que é um IDP (Internal Developer Platform)?",
+      "options": [
+        { "text": "Uma plataforma interna para acelerar entregas", "isCorrect": true, "feedback": "Você tá voando! 🚀" },
+        { "text": "Um servidor de e-mail", "isCorrect": false, "feedback": "Nem no tempo do Outlook Express isso colava." },
+        { "text": "Um app de relacionamento para devs", "isCorrect": false, "feedback": "Swipe pra esquerda nessa resposta." }
+      ]
+    },
+    {
+      "q": "Qual é o papel de uma equipe de plataforma?",
+      "options": [
+        { "text": "Prover ferramentas reutilizáveis para devs", "isCorrect": true, "feedback": "Certíssimo! Reuse é vida!" },
+        { "text": "Cuidar da cafeteria", "isCorrect": false, "feedback": "Pode até ser, mas não é core da função 😅" },
+        { "text": "Revisar código de todo mundo", "isCorrect": false, "feedback": "Só se for código de pipeline!" }
+      ]
+    },
+    {
+      "q": "Platform as a Product significa...",
+      "options": [
+        { "text": "Tratar a plataforma como um produto com foco no usuário dev", "isCorrect": true, "feedback": "Mandou bem, PM interno detected!" },
+        { "text": "Criar um e-commerce de plataformas", "isCorrect": false, "feedback": "Essa startup aí não vai escalar..." },
+        { "text": "Ter uma loja de apps para devs", "isCorrect": false, "feedback": "Seria legal, mas não é isso." }
+      ]
+    },
+    {
+      "q": "Golden path é...",
+      "options": [
+        { "text": "Um caminho documentado e validado para devs seguirem", "isCorrect": true, "feedback": "O caminho das pedras do sucesso!" },
+        { "text": "Uma trilha sonora épica para codar", "isCorrect": false, "feedback": "Essa eu queria que fosse verdade 🎵" },
+        { "text": "A cor preferida do time de design", "isCorrect": false, "feedback": "Designers choram em #FFD700" }
+      ]
+    },
+    {
+      "q": "Backstage é...",
+      "options": [
+        { "text": "Um developer portal open-source da Spotify", "isCorrect": true, "feedback": "Isso mesmo! Quem disse que só música vem de lá?" },
+        { "text": "Um lugar secreto para devs descansarem", "isCorrect": false, "feedback": "Se existir, me avisa!" },
+        { "text": "Uma ferramenta de gerenciamento de shows", "isCorrect": false, "feedback": "Errou de palco!" }
+      ]
+    },
+    {
+      "q": "A automação em engenharia de plataforma serve para...",
+      "options": [
+        { "text": "Reduzir trabalho manual e erros humanos", "isCorrect": true, "feedback": "Exato! Robôs nos salvam 🙌" },
+        { "text": "Deixar tudo mais complicado", "isCorrect": false, "feedback": "Depende de quem codou 😅" },
+        { "text": "Controlar devs remotamente", "isCorrect": false, "feedback": "Ainda bem que não!" }
+      ]
+    },
+    {
+      "q": "Qual ferramenta é comum em plataformas internas?",
+      "options": [
+        { "text": "Backstage", "isCorrect": true, "feedback": "Correto! Portalzão dos devs!" },
+        { "text": "Paint", "isCorrect": false, "feedback": "Talvez pro design do diagrama 🤔" },
+        { "text": "Facebook", "isCorrect": false, "feedback": "Só se for pra reclamar do Jira." }
+      ]
+    },
+    {
+      "q": "Qual é um dos maiores desafios de engenharia de plataforma?",
+      "options": [
+        { "text": "Engajar os devs a usarem a plataforma", "isCorrect": true, "feedback": "Dev feliz, plataforma usada!" },
+        { "text": "Ter café suficiente", "isCorrect": false, "feedback": "Importante, mas não o maior problema." },
+        { "text": "Criar memes técnicos", "isCorrect": false, "feedback": "Esse desafio é meu!" }
+      ]
+    },
+    {
+      "q": "O que significa \"paved path\"?",
+      "options": [
+        { "text": "Um caminho padrão com boas práticas", "isCorrect": true, "feedback": "Sim! Caminho pavimentado pra devs correrem!" },
+        { "text": "Rua asfaltada para servidores", "isCorrect": false, "feedback": "Essa infraestrutura ainda não chegou no data center." },
+        { "text": "Um script de instalação de Node.js", "isCorrect": false, "feedback": "Esse caminho aí dá erro 403." }
+      ]
+    }
+  ]
+  

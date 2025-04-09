@@ -1,0 +1,83 @@
+[
+    {
+      "q": "O que é IA generativa?",
+      "options": [
+        { "text": "IA que cria novos conteúdos, como textos, imagens e códigos", "isCorrect": true, "feedback": "Isso aí! A criatividade digital em ação 🤖✨" },
+        { "text": "IA que só consome conteúdo", "isCorrect": false, "feedback": "Essa é a IA que maratona Netflix!" },
+        { "text": "Um robô que gera boletos", "isCorrect": false, "feedback": "Talvez útil, mas não é o foco aqui 😅" }
+      ]
+    },
+    {
+      "q": "Qual dessas ferramentas é baseada em IA generativa?",
+      "options": [
+        { "text": "ChatGPT", "isCorrect": true, "feedback": "Acertou! Inclusive, fui eu que escrevi isso 👀" },
+        { "text": "Excel", "isCorrect": false, "feedback": "Só se for com muita criatividade e macros!" },
+        { "text": "Paint", "isCorrect": false, "feedback": "Talvez pra desenhar o prompt 😄" }
+      ]
+    },
+    {
+      "q": "O que é um *prompt*?",
+      "options": [
+        { "text": "Uma instrução ou entrada que guia a IA", "isCorrect": true, "feedback": "Perfeito! O prompt é o segredo do sucesso ✍️" },
+        { "text": "Um programa que instala IA", "isCorrect": false, "feedback": "Esse é outro tipo de prompt..." },
+        { "text": "Nome de um novo framework", "isCorrect": false, "feedback": "Ainda não criaram esse, mas é questão de tempo!" }
+      ]
+    },
+    {
+      "q": "Qual é um risco da IA generativa?",
+      "options": [
+        { "text": "Geração de conteúdo falso ou tendencioso", "isCorrect": true, "feedback": "Correto! Com grandes poderes vêm grandes responsabilidades 🕷️" },
+        { "text": "Ela pode roubar seu emprego de influencer", "isCorrect": false, "feedback": "Só se ela virar trend no TikTok!" },
+        { "text": "Ficar viciada em café", "isCorrect": false, "feedback": "Isso é mais coisa de dev 😬" }
+      ]
+    },
+    {
+      "q": "Qual linguagem é comum no treinamento de IAs generativas?",
+      "options": [
+        { "text": "Python", "isCorrect": true, "feedback": "Exato! Python é o pão de queijo da IA 🐍🧠" },
+        { "text": "HTML", "isCorrect": false, "feedback": "Bonito, mas não inteligente 😅" },
+        { "text": "CSS", "isCorrect": false, "feedback": "Só estiliza a IA mesmo." }
+      ]
+    },
+    {
+      "q": "O que é fine-tuning?",
+      "options": [
+        { "text": "Ajustar um modelo para tarefas específicas", "isCorrect": true, "feedback": "Acertou! É tipo treinar a IA pra virar especialista!" },
+        { "text": "Afinação de instrumentos musicais com IA", "isCorrect": false, "feedback": "Somente se a IA for do The Voice!" },
+        { "text": "O novo álbum do ChatGPT", "isCorrect": false, "feedback": "Em breve nas plataformas, talvez 😎" }
+      ]
+    },
+    {
+      "q": "O que são *tokens* em modelos de linguagem?",
+      "options": [
+        { "text": "Unidades menores de texto, como palavras ou partes de palavras", "isCorrect": true, "feedback": "Isso mesmo! A IA lê o mundo em tokens 🧩" },
+        { "text": "Moedas digitais da IA", "isCorrect": false, "feedback": "Não é cripto, mas quase!" },
+        { "text": "Cartões de acesso aos servidores", "isCorrect": false, "feedback": "Esses tokens são mais literais." }
+      ]
+    },
+    {
+      "q": "Qual o papel de um modelo de linguagem grande (LLM)?",
+      "options": [
+        { "text": "Entender e gerar linguagem natural", "isCorrect": true, "feedback": "Mandou bem! O LLM é tipo o cérebro digital 🧠" },
+        { "text": "Montar Lego em escala", "isCorrect": false, "feedback": "Seria incrível, mas não é o caso." },
+        { "text": "Organizar festas de IA", "isCorrect": false, "feedback": "A IA ainda tá aprendendo a dançar." }
+      ]
+    },
+    {
+      "q": "Qual desses modelos é um LLM?",
+      "options": [
+        { "text": "GPT-4", "isCorrect": true, "feedback": "Sim! O grandão do momento!" },
+        { "text": "HTTP 404", "isCorrect": false, "feedback": "Esse só aparece quando tudo dá errado 😅" },
+        { "text": "NPM", "isCorrect": false, "feedback": "Esse gera bugs, não frases." }
+      ]
+    },
+    {
+      "q": "Como garantir uso ético de IA generativa?",
+      "options": [
+        { "text": "Transparência e revisão humana", "isCorrect": true, "feedback": "Isso aí! Ética em primeiro lugar 💡" },
+        { "text": "Desligando o computador", "isCorrect": false, "feedback": "Radical, mas não sustentável." },
+        { "text": "Rezando para a IA ser boazinha", "isCorrect": false, "feedback": "Pode ajudar... mas não resolve 😅" }
+      ]
+    }
+  ]
+  

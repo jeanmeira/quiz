@@ -1,0 +1,83 @@
+[
+    {
+      "q": "What is platform engineering?",
+      "options": [
+        { "text": "Building oil platforms", "isCorrect": false, "feedback": "Close! But we’re not drilling in the cloud (yet)." },
+        { "text": "Creating foundations for efficient software delivery", "isCorrect": true, "feedback": "Exactly! Build the platform so devs can shine." },
+        { "text": "Managing social media", "isCorrect": false, "feedback": "Wrong quiz — this isn’t Instagram for Engineers 😅" }
+      ]
+    },
+    {
+      "q": "What is an IDP (Internal Developer Platform)?",
+      "options": [
+        { "text": "An internal platform to speed up delivery", "isCorrect": true, "feedback": "You nailed it! Fast lanes for developers 🚀" },
+        { "text": "An email server", "isCorrect": false, "feedback": "This isn’t 1999. Try again." },
+        { "text": "A dating app for engineers", "isCorrect": false, "feedback": "Swipe left on that idea." }
+      ]
+    },
+    {
+      "q": "What does a platform team do?",
+      "options": [
+        { "text": "Provides reusable tools for developers", "isCorrect": true, "feedback": "Correct! Reusability FTW!" },
+        { "text": "Manages the office coffee machine", "isCorrect": false, "feedback": "Only if coffee is as-a-service ☕️" },
+        { "text": "Reviews everyone's code", "isCorrect": false, "feedback": "Maybe just the CI pipelines 😅" }
+      ]
+    },
+    {
+      "q": "Platform as a Product means...",
+      "options": [
+        { "text": "Treating the platform like a product focused on devs", "isCorrect": true, "feedback": "Correct! You're thinking like an internal PM!" },
+        { "text": "Building an online store for platforms", "isCorrect": false, "feedback": "Nice try, but no." },
+        { "text": "An app store for engineers", "isCorrect": false, "feedback": "Sounds cool, but not it." }
+      ]
+    },
+    {
+      "q": "What is a 'golden path'?",
+      "options": [
+        { "text": "A documented and validated path for developers", "isCorrect": true, "feedback": "Yes! It’s the yellow brick road for devs." },
+        { "text": "An epic soundtrack for coding", "isCorrect": false, "feedback": "I wish this were true 🎵" },
+        { "text": "The design team’s favorite color", "isCorrect": false, "feedback": "Designers might love gold, but nope." }
+      ]
+    },
+    {
+      "q": "What is Backstage?",
+      "options": [
+        { "text": "An open-source developer portal from Spotify", "isCorrect": true, "feedback": "Right on! Devs rock backstage too." },
+        { "text": "A secret nap room for devs", "isCorrect": false, "feedback": "If you find one, let me know!" },
+        { "text": "A concert management tool", "isCorrect": false, "feedback": "Wrong stage, buddy." }
+      ]
+    },
+    {
+      "q": "Why use automation in platform engineering?",
+      "options": [
+        { "text": "To reduce manual work and human error", "isCorrect": true, "feedback": "Bingo! Let the bots do the boring stuff." },
+        { "text": "To make things more complicated", "isCorrect": false, "feedback": "Only if done badly 🤖" },
+        { "text": "To remotely control developers", "isCorrect": false, "feedback": "That’s called micromanagement, and it’s not cool." }
+      ]
+    },
+    {
+      "q": "Which tool is common in internal platforms?",
+      "options": [
+        { "text": "Backstage", "isCorrect": true, "feedback": "Yep! Devs love a good portal." },
+        { "text": "MS Paint", "isCorrect": false, "feedback": "For drawing architecture maybe? 🤔" },
+        { "text": "Facebook", "isCorrect": false, "feedback": "Only for complaining about Jira." }
+      ]
+    },
+    {
+      "q": "What’s a major challenge in platform engineering?",
+      "options": [
+        { "text": "Getting developers to adopt the platform", "isCorrect": true, "feedback": "Adoption is the real boss fight!" },
+        { "text": "Running out of coffee", "isCorrect": false, "feedback": "That’s more of a crisis, not a challenge." },
+        { "text": "Making technical memes", "isCorrect": false, "feedback": "Hey, someone’s gotta do it!" }
+      ]
+    },
+    {
+      "q": "What does 'paved path' mean?",
+      "options": [
+        { "text": "A default path with best practices", "isCorrect": true, "feedback": "Exactly! It's the express lane for devs." },
+        { "text": "A road for servers", "isCorrect": false, "feedback": "Too literal, not virtual enough." },
+        { "text": "A Node.js install script", "isCorrect": false, "feedback": "That path might lead to version conflicts." }
+      ]
+    }
+  ]
+  

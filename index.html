@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tech Quiz Multilinguagem</title>
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+  <div class="quiz-container">
+    <h2 id="quiz-title">Quiz de Tecnologia</h2>
+
+    <label for="language">Idioma / Language:</label>
+    <select id="language">
+      <option value="pt">Português</option>
+      <option value="en">English</option>
+    </select>
+
+    <label for="theme">Tema / Theme:</label>
+    <select id="theme">
+      <option value="platform">Engenharia de Plataforma</option>
+      <option value="cloud">Cloud Native</option>
+      <option value="ai">IA Generativa</option>
+    </select>
+
+    <button onclick="startQuiz()">Começar / Start</button>
+
+    <div id="quiz" style="display: none">
+      <div class="question" id="question"></div>
+      <div class="options" id="options"></div>
+      <div class="feedback" id="feedback"></div>
+    </div>
+
+    <div class="result" id="result"></div>
+  </div>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>

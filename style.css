@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech Quiz Multilinguagem</title>
+  <style>
+    body { font-family: sans-serif; margin: 0; padding: 20px; background: #f3f3f3; }
+    .quiz-container { max-width: 600px; margin: auto; background: white; padding: 20px; border-radius: 12px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    .question { margin-bottom: 20px; }
+    .options button { display: block; margin: 5px 0; padding: 10px; width: 100%; border-radius: 8px; border: none; cursor: pointer; background: #eee; }
+    .options button:hover { background: #ddd; }
+    .feedback { margin-top: 10px; font-style: italic; color: #666; }
+    .result { margin-top: 20px; text-align: center; }
+    .badge { margin-top: 20px; padding: 10px; background: gold; border-radius: 10px; font-size: 1.2em; font-weight: bold; }
+    select, button { padding: 10px; margin: 5px 0; border-radius: 6px; }
+  </style>
+</head>
+<body>
+  <div class="quiz-container">
+    <h2 id="quiz-title">Quiz de Tecnologia</h2>
+
+    <label for="language">Idioma / Language:</label>
+    <select id="language">
+      <option value="pt">Português</option>
+      <option value="en">English</option>
+    </select>
+
+    <label for="theme">Tema / Theme:</label>
+    <select id="theme">
+      <option value="platform">Engenharia de Plataforma</option>
+      <option value="cloud">Cloud Native</option>
+      <option value="ai">IA Generativa</option>
+    </select>
+
+    <button onclick="startQuiz()">Começar / Start</button>
+
+    <div id="quiz" style="display:none">
+      <div class="question" id="question"></div>
+      <div class="options" id="options"></div>
+      <div class="feedback" id="feedback"></div>
+    </div>
+
+    <div class="result" id="result"></div>
+  </div>
+
+  <script>
+    let current = 0;
+    let score = 0;
+    let selectedQuiz = [];
+    let quizData = {};
+
+    async function loadQuestions() {
+      const res = await fetch('questions.json');
+      quizData = await res.json();
+    }
+
+    async function startQuiz() {
+      await loadQuestions();
+      const lang = document.getElementById("language").value;
+      const theme = document.getElementById("theme").value;
+      selectedQuiz = quizData[theme][lang];
+      current = 0;
+      score = 0;
+      document.getElementById("quiz").style.display = "block";
+      document.getElementById("result").innerHTML = "";
+      loadQuestion();
+    }
+
+    function loadQuestion() {
+      const q = selectedQuiz[current];
+      document.getElementById("question").textContent = q.q;
+      const opts = document.getElementById("options");
+      opts.innerHTML = "";
+      document.getElementById("feedback").textContent = "";
+      q.options.forEach((opt, i) => {
+        const btn = document.createElement("button");
+        btn.textContent = opt.text;
+        btn.onclick = () => selectAnswer(i);
+        opts.appendChild(btn);
+      });
+    }
+
+    function selectAnswer(index) {
+      const selected = selectedQuiz[current].options[index];
+      document.getElementById("feedback").textContent = selected.feedback;
+      if (selected.isCorrect) score++;
+
+      setTimeout(() => {
+        current++;
+        if (current < selectedQuiz.length) {
+          loadQuestion();
+        } else {
+          showResult();
+        }
+      }, 1500);
+    }
+
+    function showResult() {
+      const percent = Math.round((score / selectedQuiz.length) * 100);
+      let level = "";
+      if (percent === 100) level = "Selo Mestre Jedi 🧠";
+      else if (percent >= 70) level = "Selo Dev Sênior 💻";
+      else if (percent >= 40) level = "Selo Estagiário Valente 👶";
+      else level = "Selo Confuso, porém tentando 🤯";
+
+      const result = `<p>Você acertou ${score} de ${selectedQuiz.length}.</p><div class='badge'>${level}</div>
+        <p><a href='https://wa.me/?text=Acabei%20de%20fazer%20um%20quiz%20tech%20e%20ganhei%20o%20${encodeURIComponent(level)}!%20Tenta%20a%C3%AD%3A%20https%3A%2F%2Fseulink.com%2Fquiz' target='_blank'>Compartilhar no WhatsApp</a></p>`;
+
+      document.getElementById("quiz").style.display = "none";
+      document.getElementById("result").innerHTML = result;
+    }
+  </script>
+</body>
+</html>

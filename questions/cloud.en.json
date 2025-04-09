@@ -1,0 +1,83 @@
+[
+    {
+      "q": "What does Cloud Native mean?",
+      "options": [
+        { "text": "Applications built to run in cloud environments", "isCorrect": true, "feedback": "Exactly! Born and raised in the cloud ☁️" },
+        { "text": "Apps that need Wi-Fi to work", "isCorrect": false, "feedback": "Only if the Wi-Fi comes with Kubernetes 😅" },
+        { "text": "Software that lives in the sky", "isCorrect": false, "feedback": "A poetic interpretation, but not quite." }
+      ]
+    },
+    {
+      "q": "Kubernetes is used for...",
+      "options": [
+        { "text": "Orchestrating containers", "isCorrect": true, "feedback": "Correct! K8s is the maestro of containers 🎻" },
+        { "text": "Deploying Excel sheets", "isCorrect": false, "feedback": "Spreadsheets as microservices? Not today!" },
+        { "text": "Creating physical servers", "isCorrect": false, "feedback": "That’s more screwdriver than script." }
+      ]
+    },
+    {
+      "q": "What is a container?",
+      "options": [
+        { "text": "An isolated environment for applications", "isCorrect": true, "feedback": "Yep! Like a cozy little app box 📦" },
+        { "text": "A plastic box with code", "isCorrect": false, "feedback": "Not unless you store Docker in Tupperware." },
+        { "text": "An app that only works on weekends", "isCorrect": false, "feedback": "No PTO for containers!" }
+      ]
+    },
+    {
+      "q": "What is DevOps?",
+      "options": [
+        { "text": "A culture combining development and operations", "isCorrect": true, "feedback": "Nailed it! CI/CD buddies for life 🤝" },
+        { "text": "A new JavaScript framework", "isCorrect": false, "feedback": "Thankfully not another JS lib." },
+        { "text": "A superhero team of developers", "isCorrect": false, "feedback": "Only in hackathons!" }
+      ]
+    },
+    {
+      "q": "Helm is used for...",
+      "options": [
+        { "text": "Managing Kubernetes deployments", "isCorrect": true, "feedback": "Chart your course, captain! 🧭" },
+        { "text": "Fighting pirates", "isCorrect": false, "feedback": "Only YAML pirates." },
+        { "text": "Building REST APIs", "isCorrect": false, "feedback": "You still need a server for that!" }
+      ]
+    },
+    {
+      "q": "Terraform is...",
+      "options": [
+        { "text": "An infrastructure as code tool", "isCorrect": true, "feedback": "Yes! Code your servers into existence." },
+        { "text": "A planet simulation game", "isCorrect": false, "feedback": "Wrong Terraform. But fun idea!" },
+        { "text": "An open-source version of SimCity", "isCorrect": false, "feedback": "Terraforming dreams... denied." }
+      ]
+    },
+    {
+      "q": "What is observability?",
+      "options": [
+        { "text": "The ability to understand what's happening inside your system", "isCorrect": true, "feedback": "Correct! Logs, metrics, and traces, oh my!" },
+        { "text": "Spying on other devs", "isCorrect": false, "feedback": "Please don’t stalk the keyboard warriors." },
+        { "text": "Watching deployments like Netflix", "isCorrect": false, "feedback": "That would be entertaining though!" }
+      ]
+    },
+    {
+      "q": "Which tool is NOT used in Cloud Native environments?",
+      "options": [
+        { "text": "MS Paint", "isCorrect": true, "feedback": "Exactly! Only used for emergency architecture diagrams 😂" },
+        { "text": "Prometheus", "isCorrect": false, "feedback": "Nope! Prometheus is the metrics hero." },
+        { "text": "Grafana", "isCorrect": false, "feedback": "Grafana lives on dashboards everywhere." }
+      ]
+    },
+    {
+      "q": "What is a service mesh?",
+      "options": [
+        { "text": "A network layer for managing service-to-service communication", "isCorrect": true, "feedback": "Yes! A mesh of observability and control 🕸️" },
+        { "text": "A stylish haircut for services", "isCorrect": false, "feedback": "Stylish, but not service-related." },
+        { "text": "A backend programming language", "isCorrect": false, "feedback": "Maybe in an alternate timeline." }
+      ]
+    },
+    {
+      "q": "Which is an essential practice in Cloud Native environments?",
+      "options": [
+        { "text": "CI/CD", "isCorrect": true, "feedback": "Absolutely! Ship it often, ship it fast 🚀" },
+        { "text": "Sending emails to deploy", "isCorrect": false, "feedback": "Deploys via Outlook are banned." },
+        { "text": "Deploying apps via USB drive", "isCorrect": false, "feedback": "Only if the USB is magical." }
+      ]
+    }
+  ]
+  

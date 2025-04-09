@@ -1,0 +1,83 @@
+[
+    {
+      "q": "What is Generative AI?",
+      "options": [
+        { "text": "AI that creates new content like text, images, or code", "isCorrect": true, "feedback": "Exactly! The creative side of AI 🤖✨" },
+        { "text": "AI that only watches YouTube all day", "isCorrect": false, "feedback": "That's more like lazy AI 😅" },
+        { "text": "A robot that prints bills", "isCorrect": false, "feedback": "We already have those. They're called printers." }
+      ]
+    },
+    {
+      "q": "Which of these tools uses Generative AI?",
+      "options": [
+        { "text": "ChatGPT", "isCorrect": true, "feedback": "Correct! I'm literally the answer here 😎" },
+        { "text": "Excel", "isCorrect": false, "feedback": "Not unless it's possessed by AI formulas." },
+        { "text": "Paint", "isCorrect": false, "feedback": "Only if you're drawing prompts manually!" }
+      ]
+    },
+    {
+      "q": "What is a *prompt*?",
+      "options": [
+        { "text": "A command or instruction that guides the AI", "isCorrect": true, "feedback": "Spot on! Prompt is your AI magic wand 🪄" },
+        { "text": "A startup name", "isCorrect": false, "feedback": "Honestly, wouldn’t be surprised if it was." },
+        { "text": "An AI plugin for Photoshop", "isCorrect": false, "feedback": "Not quite. Though it could be!" }
+      ]
+    },
+    {
+      "q": "What is a common risk with Generative AI?",
+      "options": [
+        { "text": "Generating false or biased content", "isCorrect": true, "feedback": "Exactly! With great power comes great… moderation." },
+        { "text": "Stealing your TikTok dance", "isCorrect": false, "feedback": "Unless it's training on TikTok..." },
+        { "text": "Becoming sentient and asking for vacation", "isCorrect": false, "feedback": "Let’s not give it ideas 🫣" }
+      ]
+    },
+    {
+      "q": "Which programming language is often used in AI development?",
+      "options": [
+        { "text": "Python", "isCorrect": true, "feedback": "Correct! Python is the official snack of AI devs 🐍" },
+        { "text": "HTML", "isCorrect": false, "feedback": "Great for webpages. Not so much for neurons." },
+        { "text": "CSS", "isCorrect": false, "feedback": "You can style things, but not train them." }
+      ]
+    },
+    {
+      "q": "What does fine-tuning a model mean?",
+      "options": [
+        { "text": "Adjusting it for specific tasks", "isCorrect": true, "feedback": "Bingo! It's like sending AI to boot camp 🏋️" },
+        { "text": "Playing with its emotions", "isCorrect": false, "feedback": "Therapy not included." },
+        { "text": "Tuning the AI's musical taste", "isCorrect": false, "feedback": "That'd be fun though 🎶" }
+      ]
+    },
+    {
+      "q": "What are tokens in language models?",
+      "options": [
+        { "text": "Small chunks of text like words or subwords", "isCorrect": true, "feedback": "Correct! It’s how AI reads the world 🧩" },
+        { "text": "Cryptocurrency for chatbots", "isCorrect": false, "feedback": "Not yet, thankfully!" },
+        { "text": "Access passes to the AI lounge", "isCorrect": false, "feedback": "Where the AIs sip virtual lattes ☕" }
+      ]
+    },
+    {
+      "q": "What is the role of an LLM (Large Language Model)?",
+      "options": [
+        { "text": "Understand and generate natural language", "isCorrect": true, "feedback": "Exactly! It's your text-savvy sidekick." },
+        { "text": "Translate emojis into feelings", "isCorrect": false, "feedback": "Even LLMs have their limits 😂" },
+        { "text": "Predict stock market with 100% accuracy", "isCorrect": false, "feedback": "Now THAT would be magic." }
+      ]
+    },
+    {
+      "q": "Which of these is a real LLM?",
+      "options": [
+        { "text": "GPT-4", "isCorrect": true, "feedback": "Correct! The current heavyweight champ 🧠🥊" },
+        { "text": "USB 3.0", "isCorrect": false, "feedback": "That's for plugging, not prompting." },
+        { "text": "JSON", "isCorrect": false, "feedback": "A format, not a model!" }
+      ]
+    },
+    {
+      "q": "How can we ensure ethical use of Generative AI?",
+      "options": [
+        { "text": "Transparency and human oversight", "isCorrect": true, "feedback": "Absolutely! AI + Ethics = 👌" },
+        { "text": "Covering the AI in stickers", "isCorrect": false, "feedback": "Only helps if the stickers say 'be nice' 😅" },
+        { "text": "Asking it to pinky promise", "isCorrect": false, "feedback": "Cute, but no guarantees!" }
+      ]
+    }
+  ]
+  
