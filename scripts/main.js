@@ -1,6 +1,7 @@
 let current = 0;
 let score = 0;
 let selectedQuiz = [];
+let selectedTheme = "";
 
 async function loadQuestions(theme, lang) {
   const path = `questions/${theme}.${lang}.json`;
@@ -14,6 +15,7 @@ async function loadQuestions(theme, lang) {
 async function startQuiz() {
   const lang = document.getElementById("language").value;
   const theme = document.getElementById("theme").value;
+  selectedTheme = theme;
 
   try {
     selectedQuiz = await loadQuestions(theme, lang);
@@ -24,17 +26,17 @@ async function startQuiz() {
 
   current = 0;
   score = 0;
-
   document.getElementById("quiz").style.display = "block";
   document.getElementById("result").innerHTML = "";
-  document.getElementById("nextBtn").style.display = "none";
+  document.getElementById("next").style.display = "none";
   loadQuestion();
 }
 
 function shuffleArray(array) {
-  return array.map(value => ({ value, sort: Math.random() }))
-              .sort((a, b) => a.sort - b.sort)
-              .map(({ value }) => value);
+  return array
+    .map(value => ({ value, sort: Math.random() }))
+    .sort((a, b) => a.sort - b.sort)
+    .map(({ value }) => value);
 }
 
 function loadQuestion() {
@@ -43,9 +45,9 @@ function loadQuestion() {
   const opts = document.getElementById("options");
   opts.innerHTML = "";
   document.getElementById("feedback").textContent = "";
-  document.getElementById("nextBtn").style.display = "none";
+  document.getElementById("next").style.display = "none";
 
-  const shuffledOptions = shuffleArray(q.options);
+  const shuffledOptions = shuffleArray([...q.options]);
 
   shuffledOptions.forEach((opt, i) => {
     const btn = document.createElement("button");
@@ -55,15 +57,17 @@ function loadQuestion() {
   });
 }
 
-function selectAnswer(selected) {
-  document.getElementById("feedback").textContent = selected.feedback;
-  if (selected.isCorrect) score++;
+function selectAnswer(option) {
+  const feedback = document.getElementById("feedback");
+  feedback.textContent = option.feedback;
+  if (option.isCorrect) score++;
 
-  // Bloqueia múltiplos cliques
+  // Disable all buttons
   const buttons = document.querySelectorAll("#options button");
-  buttons.forEach(btn => btn.disabled = true);
+  buttons.forEach(btn => (btn.disabled = true));
 
-  document.getElementById("nextBtn").style.display = "block";
+  // Show "Next" button
+  document.getElementById("next").style.display = "block";
 }
 
 function nextQuestion() {
@@ -84,11 +88,17 @@ function showResult() {
   else if (percent >= 40) level = "Selo Estagiário Valente 👶";
   else level = "Selo Confuso, porém tentando 🤯";
 
+  const themeName = {
+    platform: "Engenharia de Plataforma",
+    cloud: "Cloud Native",
+    ai: "IA Generativa"
+  }[selectedTheme] || selectedTheme;
+
   const result = `
-    <p>Você acertou ${score} de ${selectedQuiz.length}.</p>
+    <p>Você acertou ${score} de ${selectedQuiz.length} em <strong>${themeName}</strong>.</p>
     <div class='badge'>${level}</div>
     <p>
-      <a href='https://wa.me/?text=Acabei%20de%20fazer%20um%20quiz%20tech%20e%20ganhei%20o%20${encodeURIComponent(level)}!%20Tenta%20a%C3%AD%3A%20https%3A%2F%2Fjeanmeira.github.io%2Fquiz' 
+      <a href='https://wa.me/?text=Acabei%20de%20fazer%20um%20quiz%20tech%20sobre%20${encodeURIComponent(themeName)}%20e%20ganhei%20o%20${encodeURIComponent(level)}!%20Tenta%20a%C3%AD%3A%20https%3A%2F%2Fjeanmeira.github.io%2Fquiz%2F' 
       target='_blank'>Compartilhar no WhatsApp</a>
     </p>`;
 
