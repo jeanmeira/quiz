@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Tech Quiz Multilinguagem</title>
+  <title>Quiz Tech Multilíngue</title>
   <link rel="stylesheet" href="styles/style.css" />
 </head>
 <body>
   <div class="quiz-container">
-    <h2 id="quiz-title">Quiz de Tecnologia</h2>
+    <h2>Quiz Tech 🧠</h2>
 
     <label for="language">Idioma / Language:</label>
     <select id="language">
@@ -23,15 +23,16 @@
       <option value="ai">IA Generativa</option>
     </select>
 
-    <button onclick="startQuiz()">Começar / Start</button>
+    <button onclick="startQuiz()">Começar</button>
 
-    <div id="quiz" style="display: none">
-      <div class="question" id="question"></div>
-      <div class="options" id="options"></div>
-      <div class="feedback" id="feedback"></div>
+    <div id="quiz" style="display: none;">
+      <div id="question" class="question"></div>
+      <div id="options" class="options"></div>
+      <div id="feedback" class="feedback"></div>
+      <button id="nextBtn" onclick="nextQuestion()" style="display: none;">Próxima</button>
     </div>
 
-    <div class="result" id="result"></div>
+    <div id="result" class="result"></div>
   </div>
 
   <script src="scripts/main.js"></script>
