@@ -1,0 +1,83 @@
+[
+    {
+      "q": "O que é uma arquitetura em camadas?",
+      "options": [
+        { "text": "Um sistema separado em camadas com responsabilidades distintas", "isCorrect": true, "feedback": "Certíssimo! Cada um cuidando da sua camada 🧱" },
+        { "text": "Construir software com tijolos", "isCorrect": false, "feedback": "Essa é a arquitetura civil 😅" },
+        { "text": "Empilhar códigos aleatoriamente", "isCorrect": false, "feedback": "Isso é mais uma torre de bugs!" }
+      ]
+    },
+    {
+      "q": "O que representa a arquitetura de microsserviços?",
+      "options": [
+        { "text": "Dividir aplicações em serviços pequenos e independentes", "isCorrect": true, "feedback": "Acertou! Pequenos, mas poderosos 💪" },
+        { "text": "Um único serviço gigante e centralizado", "isCorrect": false, "feedback": "Isso é um monolito disfarçado!" },
+        { "text": "APIs que só funcionam de madrugada", "isCorrect": false, "feedback": "Tomara que não! 😆" }
+      ]
+    },
+    {
+      "q": "Qual é uma vantagem da arquitetura orientada a eventos?",
+      "options": [
+        { "text": "Baixo acoplamento entre componentes", "isCorrect": true, "feedback": "Perfeito! Cada um reage quando quiser 🔔" },
+        { "text": "Ficar fazendo polling o tempo todo", "isCorrect": false, "feedback": "Isso aí é estresse, não arquitetura 😅" },
+        { "text": "Pizza grátis no deploy", "isCorrect": false, "feedback": "Quem dera! 🍕" }
+      ]
+    },
+    {
+      "q": "O que é um monolito em software?",
+      "options": [
+        { "text": "Uma aplicação única e unificada com componentes acoplados", "isCorrect": true, "feedback": "Isso aí! Tudo junto e misturado 💼" },
+        { "text": "Uma formação rochosa", "isCorrect": false, "feedback": "Outro tipo de monolito 🌄" },
+        { "text": "Uma IA que domina o sistema", "isCorrect": false, "feedback": "Ainda não chegamos nesse nível 😅" }
+      ]
+    },
+    {
+      "q": "Por que usar API Gateway em uma arquitetura?",
+      "options": [
+        { "text": "Gerenciar requisições e segurança de forma centralizada", "isCorrect": true, "feedback": "Boa! É o porteiro educado do sistema 🚪" },
+        { "text": "Para deixar os microsserviços mais lentos", "isCorrect": false, "feedback": "Só se configurar mal!" },
+        { "text": "Porque fica bonito no diagrama", "isCorrect": false, "feedback": "Estética importa, mas não é o principal 😄" }
+      ]
+    },
+    {
+      "q": "O que é Domain-Driven Design (DDD)?",
+      "options": [
+        { "text": "Projetar com base nos domínios e regras do negócio", "isCorrect": true, "feedback": "Exato! O negócio vem primeiro 🧠" },
+        { "text": "Criar sites com domínios .com", "isCorrect": false, "feedback": "Não é sobre internet 😅" },
+        { "text": "Dirigir no seu próprio domínio", "isCorrect": false, "feedback": "Espero que com habilitação!" }
+      ]
+    },
+    {
+      "q": "O que significa escalabilidade em arquitetura?",
+      "options": [
+        { "text": "Capacidade de lidar com aumento de usuários ou dados", "isCorrect": true, "feedback": "Isso! Escalando rumo ao sucesso 🚀" },
+        { "text": "Deixar os sistemas menores", "isCorrect": false, "feedback": "Isso é encolher, não escalar!" },
+        { "text": "Imprimir diagramas maiores", "isCorrect": false, "feedback": "Só se for pra impressionar o chefe 😂" }
+      ]
+    },
+    {
+      "q": "Para que serve um balanceador de carga?",
+      "options": [
+        { "text": "Distribuir o tráfego entre servidores", "isCorrect": true, "feedback": "Exatamente! Nada de servidor sobrecarregado ⚖️" },
+        { "text": "Balancear o humor dos devs", "isCorrect": false, "feedback": "Seria ótimo, mas não rola 😅" },
+        { "text": "Aumentar a latência de propósito", "isCorrect": false, "feedback": "Aí seria sabotagem!" }
+      ]
+    },
+    {
+      "q": "Qual o trade-off dos microsserviços?",
+      "options": [
+        { "text": "Maior complexidade, mas melhor escalabilidade", "isCorrect": true, "feedback": "Boa! Liberdade custa caro 🧩" },
+        { "text": "Sem desvantagens", "isCorrect": false, "feedback": "Se parece bom demais, desconfie!" },
+        { "text": "Depuração mais fácil", "isCorrect": false, "feedback": "Tenta debugar um trace em produção 😅" }
+      ]
+    },
+    {
+      "q": "O que é um service mesh?",
+      "options": [
+        { "text": "Uma camada para comunicação entre serviços", "isCorrect": true, "feedback": "Isso! Tipo um Waze pra microserviços 🕸️" },
+        { "text": "Uma rede de pesca para APIs", "isCorrect": false, "feedback": "Errado tipo de malha 😄" },
+        { "text": "Um framework de CSS", "isCorrect": false, "feedback": "Estiloso, mas fora do tema!" }
+      ]
+    }
+  ]
+  

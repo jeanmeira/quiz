@@ -1,0 +1,83 @@
+[
+    {
+      "q": "Qual gênero João Gilberto ajudou a criar?",
+      "options": [
+        { "text": "Bossa Nova", "isCorrect": true, "feedback": "Certíssimo! Suave, sofisticado e cheio de balanço 🎶" },
+        { "text": "Heavy Metal", "isCorrect": false, "feedback": "João era mais violão que guitarra 😅" },
+        { "text": "Forró", "isCorrect": false, "feedback": "Outro ritmo, outra vibe!" }
+      ]
+    },
+    {
+      "q": "Qual artista brasileiro é conhecido pelo hit 'Mas Que Nada'?",
+      "options": [
+        { "text": "Jorge Ben Jor", "isCorrect": true, "feedback": "Acertou! Um groove eterno 🔥" },
+        { "text": "Anitta", "isCorrect": false, "feedback": "Ela é mais atual!" },
+        { "text": "Caetano Veloso", "isCorrect": false, "feedback": "Caetano tem outros clássicos!" }
+      ]
+    },
+    {
+      "q": "Qual é a batida principal do Samba?",
+      "options": [
+        { "text": "Uma levada sincopada em 2/4", "isCorrect": true, "feedback": "Isso aí! O swing que move o Brasil 🥁" },
+        { "text": "Um loop eletrônico em 4/4", "isCorrect": false, "feedback": "Mais Ibiza do que Lapa 😄" },
+        { "text": "Uma valsa lenta", "isCorrect": false, "feedback": "Samba não dorme no ponto!" }
+      ]
+    },
+    {
+      "q": "Qual cidade é considerada o berço do Samba?",
+      "options": [
+        { "text": "Rio de Janeiro", "isCorrect": true, "feedback": "Claro! Samba e Rio são inseparáveis 🏖️" },
+        { "text": "São Paulo", "isCorrect": false, "feedback": "Tem samba, mas não nasceu lá!" },
+        { "text": "Recife", "isCorrect": false, "feedback": "Recife é mais frevo e maracatu!" }
+      ]
+    },
+    {
+      "q": "Quem é conhecida como a Rainha do Pop Brasileiro?",
+      "options": [
+        { "text": "Ivete Sangalo", "isCorrect": true, "feedback": "Ela mesma! Energia lá no alto 🎤" },
+        { "text": "Elza Soares", "isCorrect": false, "feedback": "Lenda absoluta, mas de outro estilo!" },
+        { "text": "Marisa Monte", "isCorrect": false, "feedback": "Incrível também, mas mais MPB!" }
+      ]
+    },
+    {
+      "q": "O que foi a Tropicália?",
+      "options": [
+        { "text": "Um movimento cultural que uniu música, arte e política", "isCorrect": true, "feedback": "Isso! Criativo e revolucionário 🌺" },
+        { "text": "Uma bebida tropical", "isCorrect": false, "feedback": "Seria refrescante, mas não 😅" },
+        { "text": "Um festival de praia", "isCorrect": false, "feedback": "Quase, mas não!" }
+      ]
+    },
+    {
+      "q": "Qual instrumento é icônico no Choro?",
+      "options": [
+        { "text": "Cavaquinho", "isCorrect": true, "feedback": "Sim! Pequeno no tamanho, gigante no som 🎵" },
+        { "text": "Guitarra elétrica", "isCorrect": false, "feedback": "Mais rock do que Choro!" },
+        { "text": "Sintetizador", "isCorrect": false, "feedback": "Isso é pra outro estilo!" }
+      ]
+    },
+    {
+      "q": "O que significa MPB?",
+      "options": [
+        { "text": "Música Popular Brasileira", "isCorrect": true, "feedback": "Exatamente! Mistura de ritmos e raízes 🇧🇷" },
+        { "text": "Mega Pancadão Brasileiro", "isCorrect": false, "feedback": "Inventivo, mas não é isso 😄" },
+        { "text": "Moderna Pop Brasil", "isCorrect": false, "feedback": "Quase, mas não!" }
+      ]
+    },
+    {
+      "q": "Qual artista se apresentou na abertura das Olimpíadas de 2016?",
+      "options": [
+        { "text": "Anitta", "isCorrect": true, "feedback": "Sim! Representando o Brasil no palco mundial 🔥" },
+        { "text": "Luan Santana", "isCorrect": false, "feedback": "Esse ficou de fora!" },
+        { "text": "Sepultura", "isCorrect": false, "feedback": "Ia ser insano, mas não rolou 😅" }
+      ]
+    },
+    {
+      "q": "Qual desses gêneros nasceu no nordeste do Brasil?",
+      "options": [
+        { "text": "Forró", "isCorrect": true, "feedback": "Certo! Bora arrastar o pé 💃🪗" },
+        { "text": "Sertanejo", "isCorrect": false, "feedback": "Mais comum no centro-sul!" },
+        { "text": "Funk Carioca", "isCorrect": false, "feedback": "Esse é cria do Rio!" }
+      ]
+    }
+  ]
+  

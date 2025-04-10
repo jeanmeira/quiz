@@ -28,7 +28,7 @@ async function startQuiz() {
   score = 0;
   document.getElementById("quiz").style.display = "block";
   document.getElementById("result").innerHTML = "";
-  document.getElementById("next").style.display = "none";
+  document.getElementById("nextBtn").style.display = "none";
   loadQuestion();
 }
 
@@ -45,7 +45,7 @@ function loadQuestion() {
   const opts = document.getElementById("options");
   opts.innerHTML = "";
   document.getElementById("feedback").textContent = "";
-  document.getElementById("next").style.display = "none";
+  document.getElementById("nextBtn").style.display = "none";
 
   const shuffledOptions = shuffleArray([...q.options]);
 
@@ -67,7 +67,7 @@ function selectAnswer(option) {
   buttons.forEach(btn => (btn.disabled = true));
 
   // Show "Next" button
-  document.getElementById("next").style.display = "block";
+  document.getElementById("nextBtn").style.display = "block";
 }
 
 function nextQuestion() {
@@ -83,9 +83,9 @@ function showResult() {
   const percent = Math.round((score / selectedQuiz.length) * 100);
   let level = "";
 
-  if (percent === 100) level = "Selo Mestre Jedi 🧠";
-  else if (percent >= 70) level = "Selo Dev Sênior 💻";
-  else if (percent >= 40) level = "Selo Estagiário Valente 👶";
+  if (percent === 100) level = "Selo Pica das Galáxias";
+  else if (percent >= 70) level = "Selo Malandrão";
+  else if (percent >= 40) level = "Selo Iniciante";
   else level = "Selo Confuso, porém tentando 🤯";
 
   const themeName = {

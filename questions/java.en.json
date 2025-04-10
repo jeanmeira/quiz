@@ -1,0 +1,83 @@
+[
+    {
+      "q": "What is the role of the JVM in Java applications?",
+      "options": [
+        { "text": "To execute bytecode across different platforms", "isCorrect": true, "feedback": "Exactly! Write once, run... almost anywhere ☕" },
+        { "text": "To make your code harder to read", "isCorrect": false, "feedback": "Obfuscation comes later 😅" },
+        { "text": "To replace the CPU", "isCorrect": false, "feedback": "That would be quite something!" }
+      ]
+    },
+    {
+      "q": "What is Spring Boot used for?",
+      "options": [
+        { "text": "To quickly set up and run Java applications", "isCorrect": true, "feedback": "Correct! Less config, more coding 🚀" },
+        { "text": "To create boots in Java", "isCorrect": false, "feedback": "That’s a fashion framework 😎" },
+        { "text": "To slow down startup time", "isCorrect": false, "feedback": "Only if you're doing something wrong!" }
+      ]
+    },
+    {
+      "q": "What is the main purpose of a `@RestController` in Spring?",
+      "options": [
+        { "text": "To handle HTTP requests and responses", "isCorrect": true, "feedback": "Yes! It's the web interface of your app 🌐" },
+        { "text": "To put your code to rest", "isCorrect": false, "feedback": "Not that kind of rest 😴" },
+        { "text": "To control your sleep schedule", "isCorrect": false, "feedback": "Sadly, it won’t help there 😅" }
+      ]
+    },
+    {
+      "q": "Why use JPA in a Java application?",
+      "options": [
+        { "text": "To map Java objects to database tables", "isCorrect": true, "feedback": "Exactly! Less SQL, more OO 🔄" },
+        { "text": "To paint pixel art", "isCorrect": false, "feedback": "JPA, not JPG!" },
+        { "text": "To connect Java to Instagram", "isCorrect": false, "feedback": "That's a different kind of social connection 😄" }
+      ]
+    },
+    {
+      "q": "What is a Java Bean?",
+      "options": [
+        { "text": "A class with getters, setters, and no-arg constructor", "isCorrect": true, "feedback": "That’s the recipe! Java-style 🍵" },
+        { "text": "A type of coffee", "isCorrect": false, "feedback": "Tempting... but no ☕" },
+        { "text": "A Java-powered vegetable", "isCorrect": false, "feedback": "Not on the JVM menu!" }
+      ]
+    },
+    {
+      "q": "What does the `@Autowired` annotation do?",
+      "options": [
+        { "text": "Injects dependencies automatically", "isCorrect": true, "feedback": "Nailed it! No manual wiring needed 🔌" },
+        { "text": "Adds auto-correct to your code", "isCorrect": false, "feedback": "That would be dangerous 😅" },
+        { "text": "Sends power to the code", "isCorrect": false, "feedback": "Cool idea, but nope ⚡" }
+      ]
+    },
+    {
+      "q": "What is the use of the `interface` keyword in Java?",
+      "options": [
+        { "text": "To define contracts without implementation", "isCorrect": true, "feedback": "Exactly! Promises, not plans 🤝" },
+        { "text": "To create graphical interfaces", "isCorrect": false, "feedback": "That would be Swing or JavaFX!" },
+        { "text": "To access the internet", "isCorrect": false, "feedback": "That’s more about networking APIs" }
+      ]
+    },
+    {
+      "q": "What’s a benefit of using the Spring framework?",
+      "options": [
+        { "text": "It simplifies enterprise Java development", "isCorrect": true, "feedback": "Totally! It’s like Java on easy mode 🎯" },
+        { "text": "It replaces JavaScript", "isCorrect": false, "feedback": "JavaScript wishes 😆" },
+        { "text": "It makes your app seasonal", "isCorrect": false, "feedback": "Only if you name it ‘PumpkinApp’" }
+      ]
+    },
+    {
+      "q": "What is the function of `pom.xml` in a Maven project?",
+      "options": [
+        { "text": "To manage dependencies and build configuration", "isCorrect": true, "feedback": "Yep! Your Java project’s instruction manual 📦" },
+        { "text": "To store cat pictures", "isCorrect": false, "feedback": "Wrong kind of repo 😸" },
+        { "text": "To generate PDFs", "isCorrect": false, "feedback": "That's another library's job!" }
+      ]
+    },
+    {
+      "q": "What is garbage collection in Java?",
+      "options": [
+        { "text": "Automatic memory management", "isCorrect": true, "feedback": "Exactly! Java takes out the trash 🗑️" },
+        { "text": "A cleanup function for unused files", "isCorrect": false, "feedback": "Not file cleanup, memory cleanup!" },
+        { "text": "A Java class for recycling", "isCorrect": false, "feedback": "Environmentally friendly, but no 🌱" }
+      ]
+    }
+  ]
+  

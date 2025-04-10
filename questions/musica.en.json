@@ -1,0 +1,83 @@
+[
+    {
+      "q": "What genre is João Gilberto known for pioneering?",
+      "options": [
+        { "text": "Bossa Nova", "isCorrect": true, "feedback": "Correct! Smooth, soft and oh so cool 🎶" },
+        { "text": "Heavy Metal", "isCorrect": false, "feedback": "Not exactly a headbanger 😅" },
+        { "text": "Forró", "isCorrect": false, "feedback": "That's a different rhythm!" }
+      ]
+    },
+    {
+      "q": "Which Brazilian artist is known for the hit 'Mas Que Nada'?",
+      "options": [
+        { "text": "Jorge Ben Jor", "isCorrect": true, "feedback": "That's right! That groove is timeless 🔥" },
+        { "text": "Anitta", "isCorrect": false, "feedback": "She's more recent!" },
+        { "text": "Caetano Veloso", "isCorrect": false, "feedback": "Close, but different vibe!" }
+      ]
+    },
+    {
+      "q": "What is the main rhythm of Samba?",
+      "options": [
+        { "text": "A syncopated 2/4 beat", "isCorrect": true, "feedback": "Yep! That swing is everything 🥁" },
+        { "text": "A 4/4 techno loop", "isCorrect": false, "feedback": "That's more Berlin than Brazil!" },
+        { "text": "A slow waltz", "isCorrect": false, "feedback": "Samba never sleeps 😄" }
+      ]
+    },
+    {
+      "q": "Which city is considered the birthplace of Samba?",
+      "options": [
+        { "text": "Rio de Janeiro", "isCorrect": true, "feedback": "Of course! Samba and Rio go hand in hand 🏖️" },
+        { "text": "São Paulo", "isCorrect": false, "feedback": "Close, but not the cradle!" },
+        { "text": "Recife", "isCorrect": false, "feedback": "Great music scene, different genre!" }
+      ]
+    },
+    {
+      "q": "Who is known as the Queen of Brazilian Pop?",
+      "options": [
+        { "text": "Ivete Sangalo", "isCorrect": true, "feedback": "That's her! A true powerhouse 🎤" },
+        { "text": "Elza Soares", "isCorrect": false, "feedback": "Legend, yes, but more samba and soul!" },
+        { "text": "Marisa Monte", "isCorrect": false, "feedback": "Wonderful, but not the pop queen!" }
+      ]
+    },
+    {
+      "q": "What is 'Tropicália'?",
+      "options": [
+        { "text": "A cultural movement mixing music, art and politics", "isCorrect": true, "feedback": "Exactly! Revolutionary and creative 🌺" },
+        { "text": "A tropical drink", "isCorrect": false, "feedback": "Tasty idea, wrong context 😅" },
+        { "text": "A beach festival", "isCorrect": false, "feedback": "Could be, but no!" }
+      ]
+    },
+    {
+      "q": "Which instrument is iconic in Choro music?",
+      "options": [
+        { "text": "The cavaquinho", "isCorrect": true, "feedback": "Yes! That tiny instrument with a big sound 🎵" },
+        { "text": "Electric guitar", "isCorrect": false, "feedback": "Not quite... that's more rock" },
+        { "text": "Synthesizer", "isCorrect": false, "feedback": "Not in this genre!" }
+      ]
+    },
+    {
+      "q": "What does MPB stand for?",
+      "options": [
+        { "text": "Música Popular Brasileira", "isCorrect": true, "feedback": "Correct! A rich blend of styles and roots 🇧🇷" },
+        { "text": "Mega Party Beats", "isCorrect": false, "feedback": "Sounds fun, but nope 😄" },
+        { "text": "Modern Pop Brazil", "isCorrect": false, "feedback": "Creative guess, but not it!" }
+      ]
+    },
+    {
+      "q": "Which Brazilian artist performed at the 2016 Olympics opening ceremony?",
+      "options": [
+        { "text": "Anitta", "isCorrect": true, "feedback": "Yes! Global stage, Brazilian flavor 🔥" },
+        { "text": "Luan Santana", "isCorrect": false, "feedback": "Not at that event!" },
+        { "text": "Sepultura", "isCorrect": false, "feedback": "That would’ve been wild 😅" }
+      ]
+    },
+    {
+      "q": "Which of these genres originated in the northeast of Brazil?",
+      "options": [
+        { "text": "Forró", "isCorrect": true, "feedback": "Correct! Let’s dance the night away 💃🪗" },
+        { "text": "Sertanejo", "isCorrect": false, "feedback": "That’s more central/south!" },
+        { "text": "Funk Carioca", "isCorrect": false, "feedback": "That's from Rio’s favelas!" }
+      ]
+    }
+  ]
+  

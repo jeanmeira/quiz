@@ -1,0 +1,83 @@
+[
+    {
+      "q": "What is a layered architecture?",
+      "options": [
+        { "text": "A system separated into layers with distinct responsibilities", "isCorrect": true, "feedback": "Exactly! Everyone minding their own layer 🧱" },
+        { "text": "Building software with bricks", "isCorrect": false, "feedback": "That would be *literal* architecture 😅" },
+        { "text": "Stacking code randomly", "isCorrect": false, "feedback": "Sounds more like a recipe for bugs!" }
+      ]
+    },
+    {
+      "q": "What does microservices architecture represent?",
+      "options": [
+        { "text": "Breaking applications into small, independent services", "isCorrect": true, "feedback": "Right on! Small but mighty 💪" },
+        { "text": "A single giant and centralized service", "isCorrect": false, "feedback": "That's more of a monolith in disguise!" },
+        { "text": "APIs that only work at night", "isCorrect": false, "feedback": "Hopefully not! 😆" }
+      ]
+    },
+    {
+      "q": "What's a key benefit of event-driven architecture?",
+      "options": [
+        { "text": "Loose coupling between components", "isCorrect": true, "feedback": "Exactly! Everyone reacts when they want 🔔" },
+        { "text": "Constant polling", "isCorrect": false, "feedback": "That’s more like stress-driven architecture 😅" },
+        { "text": "Free pizza on deployment", "isCorrect": false, "feedback": "We wish! 🍕" }
+      ]
+    },
+    {
+      "q": "What is a monolith in software?",
+      "options": [
+        { "text": "A single, unified application with tightly coupled components", "isCorrect": true, "feedback": "That's it! All-in-one, for better or worse 💼" },
+        { "text": "A rock formation", "isCorrect": false, "feedback": "Wrong type of monolith 🌄" },
+        { "text": "An AI that takes over the system", "isCorrect": false, "feedback": "Calma, ainda não chegamos lá 😅" }
+      ]
+    },
+    {
+      "q": "Why use API Gateways in architecture?",
+      "options": [
+        { "text": "To manage requests and security in a centralized way", "isCorrect": true, "feedback": "Yes! Your system's friendly doorman 🚪" },
+        { "text": "To slow down microservices", "isCorrect": false, "feedback": "Only if badly configured!" },
+        { "text": "Because it looks cool in diagrams", "isCorrect": false, "feedback": "Aesthetics matter, but that’s not the reason 😄" }
+      ]
+    },
+    {
+      "q": "What is domain-driven design (DDD)?",
+      "options": [
+        { "text": "Designing based on business domains and logic", "isCorrect": true, "feedback": "Precisely! Business first 🧠" },
+        { "text": "Designing for domain names", "isCorrect": false, "feedback": "Nope, not about URLs 😅" },
+        { "text": "Driving in your domain", "isCorrect": false, "feedback": "Hope you’re a good driver!" }
+      ]
+    },
+    {
+      "q": "What does scalability mean in system architecture?",
+      "options": [
+        { "text": "Ability to handle growth in users or data", "isCorrect": true, "feedback": "Yep! Ready to scale to the moon 🚀" },
+        { "text": "Making systems smaller", "isCorrect": false, "feedback": "That’s the opposite, actually!" },
+        { "text": "Printing bigger diagrams", "isCorrect": false, "feedback": "It might help with presentations, though 😂" }
+      ]
+    },
+    {
+      "q": "What is the purpose of a load balancer?",
+      "options": [
+        { "text": "Distribute incoming traffic across multiple servers", "isCorrect": true, "feedback": "Correct! No one likes an overloaded server ⚖️" },
+        { "text": "Balance developers' workloads", "isCorrect": false, "feedback": "We wish! HR tool, maybe?" },
+        { "text": "Increase latency on purpose", "isCorrect": false, "feedback": "That's... not the goal at all 😅" }
+      ]
+    },
+    {
+      "q": "What are the trade-offs of a microservices architecture?",
+      "options": [
+        { "text": "Increased complexity but better scalability", "isCorrect": true, "feedback": "Exactly! Freedom comes with responsibility 🧩" },
+        { "text": "No trade-offs at all", "isCorrect": false, "feedback": "In architecture, there’s always a cost!" },
+        { "text": "Easier debugging", "isCorrect": false, "feedback": "Tell that to your logs 😅" }
+      ]
+    },
+    {
+      "q": "What is a service mesh?",
+      "options": [
+        { "text": "A dedicated infrastructure layer for service-to-service communication", "isCorrect": true, "feedback": "Yes! Like a smart traffic control system 🕸️" },
+        { "text": "A fishing net for APIs", "isCorrect": false, "feedback": "Different kind of mesh 😄" },
+        { "text": "A frontend CSS framework", "isCorrect": false, "feedback": "That would be stylish, but no." }
+      ]
+    }
+  ]
+  
